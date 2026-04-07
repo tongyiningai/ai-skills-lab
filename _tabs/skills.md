@@ -1,5 +1,6 @@
 ---
 layout: page
-title: 教程
-order: 2         # 数字越小越靠前
+title: 技能插件
+icon: fas fa-cubes
+order: 2
 ---

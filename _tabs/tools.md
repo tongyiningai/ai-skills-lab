@@ -1,5 +1,6 @@
 ---
 layout: page
-title: 教程
-order: 3         # 数字越小越靠前
+title: 实用工具
+icon: fas fa-wrench
+order: 3
 ---
