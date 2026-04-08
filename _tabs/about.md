@@ -14,6 +14,3 @@ order: 4
 
 ## 快速开始
 
-- [📖 安装教程](/tutorials/)
-- [🛠️ 我的 Skills](/skills/)
-- [🔧 实用工具](/tools/)
