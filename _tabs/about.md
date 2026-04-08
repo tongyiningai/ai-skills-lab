@@ -12,7 +12,5 @@ order: 4
 - 实用 Skill 开发与分享
 - 一键部署脚本与工具
 
-- [📖 安装教程]({{ '/tutorials/' | relative_url }})
-- [🛠️ 我的 Skills]({{ '/skills/' | relative_url }})
-- [🔧 实用工具]({{ '/tools/' | relative_url }})
+
 
