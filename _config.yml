@@ -14,7 +14,7 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 同义宁的AI实验：探索与分享AI时代的暴富机会 # the main title
+title: 童义宁的AI实验：探索与分享AI时代的暴富机会 # the main title
 
 tagline: A text-focused Jekyll theme # it will display as the subtitle
 
@@ -23,7 +23,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://jinqiantianxia-a11y.github.io/ai-skills-lab"
+url: "https://tongyiningai.github.io/ai-skills-lab"
 
 github:
   username: github_username # change to your GitHub username
