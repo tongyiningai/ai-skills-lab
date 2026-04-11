@@ -64,6 +64,20 @@
     log('pjax 完成');
     initScroll();
   });
+  let collapseInited = false;
+
+  function initCollapse() {
+    if (collapseInited) return;
+    collapseInited = true;
+
+    document.addEventListener('click', function(e) {
+      const header = e.target.closest('.collapse-header');
+      if (!header) return;
+
+      const parent = header.parentElement;
+      parent.classList.toggle('open');
+    });
+  }
 
 })();
 </script>
