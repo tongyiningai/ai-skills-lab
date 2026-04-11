@@ -1,0 +1,30 @@
+/* ================= 自定义折叠菜单 ================= */
+
+.custom-collapse {
+  cursor: pointer;
+}
+
+.custom-collapse .collapse-header {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+}
+
+.custom-collapse .collapse-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.custom-collapse.open .collapse-body {
+  max-height: 300px;
+}
+
+.custom-collapse .arrow {
+  margin-left: auto;
+  transition: transform 0.3s;
+}
+
+.custom-collapse.open .arrow {
+  transform: rotate(90deg);
+}
