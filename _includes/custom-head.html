@@ -21,4 +21,18 @@
 #sidebar .custom-collapse.open .arrow {
   transform: rotate(90deg);
 }
+/* 修复侧边栏下拉菜单被裁剪的问题 */
+  .sidebar-bottom,
+  .nav-item.dropdown {
+    position: static !important;
+  }
+  .dropdown-menu {
+    position: absolute !important;
+    transform: translate3d(0px, 38px, 0px) !important;
+    z-index: 1050;
+  }
+  /* 确保菜单在侧边栏上层显示 */
+  #sidebar {
+    overflow: visible !important;
+  }
 </style>
