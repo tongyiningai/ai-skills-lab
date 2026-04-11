@@ -36,6 +36,23 @@
 
       <!-- 自定义：教程折叠菜单 -->
       <!-- 自定义：教程折叠菜单 -->
+      <!-- <li class="nav-item dropdown">
+        <a href="#" 
+           class="nav-link dropdown-toggle" 
+           id="tutorialsDropdown" 
+           role="button" 
+           data-bs-toggle="dropdown" 
+           aria-expanded="false">
+          <i class="fa-fw fas fa-book"></i>
+          <span>TUTORIALS/教程</span>
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="tutorialsDropdown">
+          <li><a class="dropdown-item" href="{{ '/beginner/' | relative_url }}">🌱 入门版</a></li>
+          <li><a class="dropdown-item" href="{{ '/intermediate/' | relative_url }}">🚀 进阶版</a></li>
+          <li><a class="dropdown-item" href="{{ '/advanced/' | relative_url }}">👑 高级版</a></li>
+        </ul>
+      </li> -->
+
       <li class="nav-item custom-collapse">
         <div class="collapse-header">
           <i class="fa-fw fas fa-book"></i>
@@ -44,12 +61,11 @@
         </div>
 
         <ul class="collapse-body">
-          <li><a href="/beginner/">🌱 入门版</a></li>
-          <li><a href="/intermediate/">🚀 进阶版</a></li>
-          <li><a href="/advanced/">👑 高级版</a></li>
+          <li><a class="dropdown-item" href="{{ '/beginner/' | relative_url }}">🌱 入门版</a></li>
+          <li><a class="dropdown-item" href="{{ '/intermediate/' | relative_url }}">🚀 进阶版</a></li>
+          <li><a class="dropdown-item" href="{{ '/advanced/' | relative_url }}">👑 高级版</a></li>
         </ul>
       </li>
-
       <!-- 注意：如果你还有 categories 和 tags 没有在 site.tabs 中，可以手动添加，但通常它们已经在 tabs 里了 -->
     </ul>
   </nav>
