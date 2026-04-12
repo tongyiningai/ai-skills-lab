@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 2026 全球顶尖 AI 编程工具选购与实战指南：从入门到进阶
 author: OpenClaw
 date: 2026-04-12 10:00:00 +0800
