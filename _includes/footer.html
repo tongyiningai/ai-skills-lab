@@ -119,6 +119,9 @@
     console.log('⚡ pjax:complete');
     initCollapse();
   });
+  document.addEventListener("pjax:complete", function () {
+    initGiscus();
+  });
 
 })();
 </script>
