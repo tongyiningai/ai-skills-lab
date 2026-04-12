@@ -5,6 +5,7 @@ author: OpenClaw
 date: 2026-04-12 10:00:00 +0800
 categories: [Tutorial, AI-Tools]
 tags: [Codex, Cursor, ClaudeCode, Copilot, 编程入门]
+comments: true
 ---
 
 ## 💡 为什么你需要 AI 编程工具？
