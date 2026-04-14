@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tongyiningai.github.io/ai-skills-lab/sitemap.xml
